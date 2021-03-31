@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import Project from './components/Project';
+import ProjectsPage from './components/ProjectsPage';
 import './App.css';
 
 class App extends Component {
@@ -17,36 +17,36 @@ class App extends Component {
         id: 2,
         name: "React Movie List",
         image: "images/route-finder.png",
-        site: "https://mitt-route-finder.netlify.app/",
-        code: "https://github.com/elizabethh34/api-final"
+        site: "https://mitt-react-movie-list.netlify.app/",
+        code: "https://github.com/elizabethh34/react-movie-list"
       },
       {
         id: 3,
-        name: "React Movie List",
-        image: "images/route-finder.png",
-        site: "https://mitt-route-finder.netlify.app/",
-        code: "https://github.com/elizabethh34/api-final"
+        name: "Ecommerce Cart",
+        image: "images/shopping-cart.png",
+        site: "https://react-mouseheavan.netlify.app/",
+        code: "https://github.com/elizabethh34/react-shopping-cart-2"
       },
       {
         id: 4,
-        name: "Bus Route Finder",
-        image: "images/route-finder.png",
-        site: "https://mitt-route-finder.netlify.app/",
-        code: "https://github.com/elizabethh34/api-final"
+        name: "Find Next Bus",
+        image: "images/stop-finder.png",
+        site: "https://winnipegtransit-bustimes-finder.netlify.app/",
+        code: "https://github.com/elizabethh34/API-assignment1"
       },
       {
         id: 5,
-        name: "React Movie List",
-        image: "images/route-finder.png",
-        site: "https://mitt-route-finder.netlify.app/",
-        code: "https://github.com/elizabethh34/api-final"
+        name: "POI Finder",
+        image: "images/group-map.png",
+        site: "https://map-group-project.netlify.app/",
+        code: "https://github.com/elizabethh34/map-group-project"
       },
       {
         id: 6,
-        name: "React Movie List",
-        image: "images/route-finder.png",
-        site: "https://mitt-route-finder.netlify.app/",
-        code: "https://github.com/elizabethh34/api-final"
+        name: "To-do List",
+        image: "images/todo-list.png",
+        site: "https://todolistapp-toolsandautomation.netlify.app/",
+        code: "https://github.com/elizabethh34/personal-project"
       }
     ]
   }
@@ -57,11 +57,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <div className="projects-container">
-          {allProjects.map(project => {
-            return <Project key={project.id} project={project}/>
-          })}
-        </div>
+        <ProjectsPage allProjects={allProjects}/>
       </div>
     );
   }

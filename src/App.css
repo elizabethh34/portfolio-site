@@ -1,5 +1,20 @@
-* {
-  box-sizing: border-box;
+.header-name, .projects-heading {
+  text-align: center;
+}
+
+.header-name {
+  margin-bottom: 0;
+}
+
+.github-link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: rgb(10, 41, 88);
+}
+
+.github-link:hover {
+  color: rgb(199, 232, 247);
 }
 
 .projects-container {
@@ -17,6 +32,38 @@
 
 .project img {
   width: 100%;
+  opacity: 0.5;
+}
+
+.image-container {
+  position: relative;
+}
+
+.project-name {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+
+.options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.view-button {
+  background-color: rgb(10, 41, 88);
+  color: rgb(199, 232, 247);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.view-button:hover {
+  cursor: pointer;
+  background-color: rgb(199, 232, 247);
+  color: rgb(10, 41, 88);
 }
 
 @media only screen and (min-width: 600px) {
@@ -25,8 +72,8 @@
   }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 850px) {
   .project {
-    width: 25%;
+    width: 28%;
   }
 }
