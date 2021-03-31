@@ -5,15 +5,18 @@ const Project = (props) => {
 
   return (   
     <div className="project">
+      <h3 className="project-name">{project.name}</h3>
       <div className="image-container">
         <img className="project-image" src={project.image} alt={project.name}/>
-        <h5 className="project-name">{project.name}</h5>
+        <div className="overlay">
+          <p className="description">{project.description}</p>
+        </div>                  
       </div>      
       <div className="options">
         <a className="view-button" href={project.site}>View Project</a>
         <a className="view-button" href={project.code}>View Code</a>        
       </div>
-    </div>      
+    </div>       
   );
 }
  
