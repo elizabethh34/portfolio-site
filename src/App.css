@@ -1,20 +1,40 @@
-.header-name, .projects-heading {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.header-name {
-  margin-bottom: 0;
+nav {
+  background-color: rgb(80, 140, 231);
+  margin-bottom: 30px;
 }
 
-.github-link {
+.nav-container {  
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item, .name {
+  margin: 15px;
+  color:rgb(199, 232, 247);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-item a {
   text-decoration: none;
-  display: block;
-  text-align: center;
-  color: rgb(10, 41, 88);
+  color:rgb(199, 232, 247);
 }
 
-.github-link:hover {
-  color: rgb(199, 232, 247);
+.projects-heading {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .projects-container {

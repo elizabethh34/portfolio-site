@@ -6,7 +6,7 @@ const ProjectsPage = (props) => {
 
   return (
     <Fragment>
-      <h3 className="projects-heading">Projects</h3>
+      <h2 className="projects-heading">Projects</h2>
       <div className="projects-container">
         {allProjects.map(project => {
           return <Project key={project.id} project={project}/>
