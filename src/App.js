@@ -6,7 +6,7 @@ import ProjectsPage from './components/ProjectsPage';
 import './App.css';
 
 class App extends Component {
-  state = { 
+  state = {
     allProjects: [
       {
         id: 1,

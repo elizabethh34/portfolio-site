@@ -9,11 +9,45 @@ nav {
   margin-bottom: 30px;
 }
 
+.home-name, .home-role {
+  text-align: center;
+}
+
+.info-container {
+  border: 2px solid rgb(18, 114, 143);
+  border-radius: 4px;
+  width: 60%;
+  margin: auto;
+}
+
+.about-info {
+  padding: 20px;
+}
+
+.name-container {
+  margin: 50px;
+}
+
+.projects-button {
+  width: 150px;
+  text-align: center;
+  margin: 20px auto;
+  color: rgb(248, 178, 178);
+  background-color: rgb(18, 114, 143);
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .nav-container {  
   display: flex;
   justify-content: space-between;
   width: 85%;
   margin: auto;
+}
+
+.active {
+  border-bottom:2px solid rgb(248, 178, 178);
 }
 
 nav ul {
@@ -44,6 +78,7 @@ nav ul {
 .projects-heading {
   text-align: center;
   margin-bottom: 15px;
+  color:rgb(18, 114, 143);
 }
 
 .projects-container {
@@ -58,11 +93,14 @@ nav ul {
   margin: 15px;
   width: 80%;
   border: 2px solid rgb(18, 114, 143);
+  background-color: rgb(245, 202, 202);
   border-radius: 4px;
 }
 
 .project-name {
   text-align: center;
+  padding: 20px;
+  color:rgb(18, 114, 143);
 }
 
 .project-image {
@@ -108,19 +146,19 @@ nav ul {
 }
 
 .view-button {
-  background-color: rgb(248, 178, 178);
-  color: rgb(18, 114, 143);
+  color: rgb(248, 178, 178);
+  background-color: rgb(18, 114, 143);
   font-weight: 600;
   padding: 10px;
-  margin-top: 10px;
+  margin: 20px 0px;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .view-button:hover {
   cursor: pointer;
-  color: rgb(248, 178, 178);
-  background-color: rgb(18, 114, 143);
+  background-color: rgb(248, 178, 178);
+  color: rgb(18, 114, 143);
 }
 
 @media only screen and (min-width: 600px) {
