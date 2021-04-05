@@ -9,7 +9,7 @@ const Home = () => {
         <h4 className="home-role">Junior Full Stack Web Developer</h4>
       </div>      
       <div className="info-container">
-        <p className="about-info">I am a software development student at the Manitoba Institute of Trades and Technology</p>
+        <p className="about-info">I am a software development student at the Manitoba Institute of Trades and Technology. I look forward to continuing to expand my knowledge and skills on web development.</p>
       </div>
       <Link to="/projects">
         <div className="projects-button">View Projects</div>

@@ -5,16 +5,19 @@
 }
 
 nav {
-  background-color: rgb(18, 114, 143);
+  background-color: rgb(138, 209, 231);
   margin-bottom: 30px;
 }
 
 .home-name, .home-role {
   text-align: center;
+  color:rgb(138, 209, 231);
 }
 
 .info-container {
-  border: 2px solid rgb(18, 114, 143);
+  background-color: rgb(206, 206, 206);
+  color:rgb(26, 95, 116);
+  font-size: 20px;
   border-radius: 4px;
   width: 60%;
   margin: auto;
@@ -32,11 +35,16 @@ nav {
   width: 150px;
   text-align: center;
   margin: 20px auto;
-  color: rgb(248, 178, 178);
-  background-color: rgb(18, 114, 143);
+  color: rgb(138, 209, 231);
+  background-color: rgb(26, 95, 116);
   font-weight: 600;
   padding: 10px;
   border-radius: 5px;
+}
+
+.projects-button:hover {
+  color: rgb(26, 95, 116);
+  background-color: rgb(138, 209, 231);
 }
 
 .nav-container {  
@@ -46,10 +54,6 @@ nav {
   margin: auto;
 }
 
-.active {
-  border-bottom:2px solid rgb(248, 178, 178);
-}
-
 nav ul {
   display: flex;
   list-style: none;
@@ -57,17 +61,13 @@ nav ul {
 
 .nav-item, .name {
   margin: 15px;
-  color:rgb(245, 202, 202);
+  color:rgb(8, 40, 49);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .nav-item a {
-  color:rgb(245, 202, 202);
-}
-
-.nav-item a:active {
-  color: black;
+  color:rgb(8, 40, 49);
 }
 
 .home-container {
@@ -78,7 +78,7 @@ nav ul {
 .projects-heading {
   text-align: center;
   margin-bottom: 15px;
-  color:rgb(18, 114, 143);
+  color: rgb(138, 209, 231);
 }
 
 .projects-container {
@@ -92,15 +92,14 @@ nav ul {
 .project {
   margin: 15px;
   width: 80%;
-  border: 2px solid rgb(18, 114, 143);
-  background-color: rgb(245, 202, 202);
+  background-color: rgb(206, 206, 206);
   border-radius: 4px;
 }
 
 .project-name {
   text-align: center;
   padding: 20px;
-  color:rgb(18, 114, 143);
+  color:rgb(26, 95, 116);
 }
 
 .project-image {
@@ -124,6 +123,8 @@ nav ul {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  font-size: 20px;
+  color:rgb(8, 40, 49);
 }
 
 .image-container:hover .project-image {
@@ -146,8 +147,8 @@ nav ul {
 }
 
 .view-button {
-  color: rgb(248, 178, 178);
-  background-color: rgb(18, 114, 143);
+  color: rgb(138, 209, 231);
+  background-color: rgb(26, 95, 116);
   font-weight: 600;
   padding: 10px;
   margin: 20px 0px;
@@ -157,8 +158,8 @@ nav ul {
 
 .view-button:hover {
   cursor: pointer;
-  background-color: rgb(248, 178, 178);
-  color: rgb(18, 114, 143);
+  background-color: rgb(138, 209, 231);
+  color: rgb(26, 95, 116);
 }
 
 @media only screen and (min-width: 600px) {

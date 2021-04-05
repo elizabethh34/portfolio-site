@@ -19,7 +19,7 @@ class App extends Component {
       {
         id: 2,
         name: "React Movie List",
-        image: "images/route-finder.png",
+        image: "images/movie-list.png",
         description: "Built with React, users can search for movies to add to their favourites list",
         site: "https://mitt-react-movie-list.netlify.app/",
         code: "https://github.com/elizabethh34/react-movie-list"
