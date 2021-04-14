@@ -13,6 +13,7 @@ class App extends Component {
         name: "Bus Route Finder",
         image: "images/route-finder.png",
         description: "Built with React, users can enter origin and destination to find available bus routes",
+        technologies: "JavaScript, HTML/CSS, APIs",
         site: "https://mitt-route-finder.netlify.app/",
         code: "https://github.com/elizabethh34/api-final"
       },
@@ -21,6 +22,7 @@ class App extends Component {
         name: "Budget Calculator",
         image: "images/budget-calculator.png",
         description: "Users can add and track income and expenses",
+        technologies: "JavaScript, HTML/CSS",
         site: "https://budget-calculator-mitt.netlify.app/",
         code: "https://github.com/elizabethh34/budget-calculator"
       },
@@ -29,6 +31,7 @@ class App extends Component {
         name: "Ecommerce Cart",
         image: "images/shopping-cart.png",
         description: "Built with React, products can be added and removed from an ecommerce shopping cart",
+        technologies: "React, React Router, APIs, JavaScript",
         site: "https://react-mouseheavan.netlify.app/",
         code: "https://github.com/elizabethh34/react-shopping-cart-2"
       },
@@ -37,6 +40,7 @@ class App extends Component {
         name: "Find Next Bus",
         image: "images/stop-finder.png",
         description: "Utilizing the Winnipeg Transit API, users can search for a street to see a list of the next buses along that street",
+        technologies: "JavaScript, APIs, HTML/CSS",
         site: "https://winnipegtransit-bustimes-finder.netlify.app/",
         code: "https://github.com/elizabethh34/API-assignment1"
       },
@@ -45,6 +49,7 @@ class App extends Component {
         name: "POI Finder",
         image: "images/group-map.png",
         description: "Using MapBox, users can search for points of interest and display them on a map",
+        technologies: "JavaScript, APIs",
         site: "https://map-group-project.netlify.app/",
         code: "https://github.com/elizabethh34/map-group-project"
       },
@@ -53,6 +58,7 @@ class App extends Component {
         name: "To-do List",
         image: "images/todo-list.png",
         description: "Users can add, remove and mark tasks as complete",
+        technologies: "JavaScript, HTML/CSS",
         site: "https://todolistapp-toolsandautomation.netlify.app/",
         code: "https://github.com/elizabethh34/personal-project"
       }
