@@ -18,11 +18,11 @@ class App extends Component {
       },
       {
         id: 2,
-        name: "React Movie List",
-        image: "images/movie-list.png",
-        description: "Built with React, users can search for movies to add to their favourites list",
-        site: "https://mitt-react-movie-list.netlify.app/",
-        code: "https://github.com/elizabethh34/react-movie-list"
+        name: "Budget Calculator",
+        image: "images/budget-calculator.png",
+        description: "Users can add and track income and expenses",
+        site: "https://budget-calculator-mitt.netlify.app/",
+        code: "https://github.com/elizabethh34/budget-calculator"
       },
       {
         id: 3,
