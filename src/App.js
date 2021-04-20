@@ -76,6 +76,15 @@ class App extends Component {
         technologies: "React, React Router, APIs",
         code: "https://github.com/elizabethh34/react-movie-list",
         isHosted: false
+      },
+      {
+        id: 8,
+        name: "RPG Monster Game",
+        image: "images/rpg-game.png",
+        description: "C# text console game where the user is the hero and they are trying to stay alive while fighting monsters",
+        technologies: "C#",
+        code: "https://github.com/elizabethh34/RPG-game",
+        isHosted: false
       }
     ]
   }
