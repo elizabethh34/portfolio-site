@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import ProjectsPage from './components/ProjectsPage';
+import About from './components/About';
 import './App.css';
 
 class App extends Component {
@@ -98,10 +99,16 @@ class App extends Component {
         <Switch>
           <Route
             exact path="/"
-            render={props => <Home {...props}/>}/>
+            render={props => <Home {...props}/>}
+          />
+          <Route
+            exact path="/about"
+            render={props => <About {...props}/>}
+          />
           <Route
             exact path="/projects"
-            render={props => <ProjectsPage allProjects={allProjects} {...props}/>}/>
+            render={props => <ProjectsPage allProjects={allProjects} {...props}/>}
+          />
         </Switch>
       </Fragment>
     );

@@ -13,17 +13,20 @@ nav {
   color:rgb(138, 209, 231);
 }
 
+.home-name {
+  font-size: 2.5em;
+}
+
 .home-image {
   height: 100vh;
   padding: 20px;
 }
 
-.info-container {
-  background-color: rgb(206, 206, 206);
-  color:rgb(26, 95, 116);
+.home-container {
+  color:rgb(138, 209, 231);
   font-size: 20px;
   border-radius: 4px;
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 
@@ -35,15 +38,28 @@ nav {
   margin: 50px;
 }
 
+.home-buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
 .projects-button {
-  width: 150px;
   text-align: center;
-  margin: 20px auto;
+  margin: 20px;
   color: rgb(26, 95, 116);
   background-color: rgb(138, 209, 231);
   font-weight: 600;
-  padding: 10px;
+  padding: 12px;
   border-radius: 5px;
+}
+
+.projects-button.about {
+  width: 20%;
+  margin: auto;
+}
+
+.fas {
+  margin-left: 10px;
 }
 
 .projects-button:hover {
@@ -72,11 +88,6 @@ nav ul {
 
 .nav-item a {
   color:rgb(8, 40, 49);
-}
-
-.home-container {
-  width: 85%;
-  margin: auto;
 }
 
 .projects-heading {
