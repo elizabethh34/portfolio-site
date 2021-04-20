@@ -6,12 +6,16 @@
 
 nav {
   background-color: rgb(138, 209, 231);
-  margin-bottom: 30px;
 }
 
 .home-name, .home-role {
   text-align: center;
   color:rgb(138, 209, 231);
+}
+
+.home-image {
+  height: 100vh;
+  padding: 20px;
 }
 
 .info-container {
@@ -35,16 +39,16 @@ nav {
   width: 150px;
   text-align: center;
   margin: 20px auto;
-  color: rgb(138, 209, 231);
-  background-color: rgb(26, 95, 116);
+  color: rgb(26, 95, 116);
+  background-color: rgb(138, 209, 231);
   font-weight: 600;
   padding: 10px;
   border-radius: 5px;
 }
 
 .projects-button:hover {
-  color: rgb(26, 95, 116);
-  background-color: rgb(138, 209, 231);
+  background-color: rgb(26, 95, 116);
+  color: rgb(138, 209, 231);
 }
 
 .nav-container {  
@@ -77,7 +81,7 @@ nav ul {
 
 .projects-heading {
   text-align: center;
-  margin-bottom: 15px;
+  padding: 30px 0;
   color: rgb(138, 209, 231);
 }
 

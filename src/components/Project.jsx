@@ -13,7 +13,7 @@ const Project = (props) => {
         </div>                  
       </div>  
       <div className="options">
-        <a className="view-button" href={project.site}>View Project</a>
+        {project.isHosted ? <a className="view-button" href={project.site}>View Project</a> : ""}        
         <a className="view-button" href={project.code}>View Code</a>        
       </div>
     </div>       

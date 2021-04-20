@@ -15,7 +15,8 @@ class App extends Component {
         description: "Built with React, users can enter origin and destination to find available bus routes",
         technologies: "JavaScript, HTML/CSS, APIs",
         site: "https://mitt-route-finder.netlify.app/",
-        code: "https://github.com/elizabethh34/api-final"
+        code: "https://github.com/elizabethh34/api-final",
+        isHosted: true
       },
       {
         id: 2,
@@ -24,7 +25,8 @@ class App extends Component {
         description: "Users can add and track income and expenses",
         technologies: "JavaScript, HTML/CSS",
         site: "https://budget-calculator-mitt.netlify.app/",
-        code: "https://github.com/elizabethh34/budget-calculator"
+        code: "https://github.com/elizabethh34/budget-calculator",
+        isHosted: true
       },
       {
         id: 3,
@@ -33,7 +35,8 @@ class App extends Component {
         description: "Built with React, products can be added and removed from an ecommerce shopping cart",
         technologies: "React, React Router, APIs, JavaScript",
         site: "https://react-mouseheavan.netlify.app/",
-        code: "https://github.com/elizabethh34/react-shopping-cart-2"
+        code: "https://github.com/elizabethh34/react-shopping-cart-2",
+        isHosted: true
       },
       {
         id: 4,
@@ -42,7 +45,8 @@ class App extends Component {
         description: "Utilizing the Winnipeg Transit API, users can search for a street to see a list of the next buses along that street",
         technologies: "JavaScript, APIs, HTML/CSS",
         site: "https://winnipegtransit-bustimes-finder.netlify.app/",
-        code: "https://github.com/elizabethh34/API-assignment1"
+        code: "https://github.com/elizabethh34/API-assignment1",
+        isHosted: true
       },
       {
         id: 5,
@@ -51,7 +55,8 @@ class App extends Component {
         description: "Using MapBox, users can search for points of interest and display them on a map",
         technologies: "JavaScript, APIs",
         site: "https://map-group-project.netlify.app/",
-        code: "https://github.com/elizabethh34/map-group-project"
+        code: "https://github.com/elizabethh34/map-group-project",
+        isHosted: true
       },
       {
         id: 6,
@@ -60,7 +65,17 @@ class App extends Component {
         description: "Users can add, remove and mark tasks as complete",
         technologies: "JavaScript, HTML/CSS",
         site: "https://todolistapp-toolsandautomation.netlify.app/",
-        code: "https://github.com/elizabethh34/personal-project"
+        code: "https://github.com/elizabethh34/personal-project",
+        isHosted: true
+      },
+      {
+        id: 7,
+        name: "React Movie List",
+        image: "images/movie-list.png",
+        description: "Users can search for movies to add to their favourites list",
+        technologies: "React, React Router, APIs",
+        code: "https://github.com/elizabethh34/react-movie-list",
+        isHosted: false
       }
     ]
   }
