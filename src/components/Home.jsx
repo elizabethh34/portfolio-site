@@ -11,7 +11,7 @@ const Home = () => {
           <h3 className="home-role">Junior Full Stack Software Developer</h3>
         </div>      
         <div className="info-container">
-          <p className="about-info">I am a software development student at the Manitoba Institute of Trades and Technology. I look forward to continuing to expand my knowledge and skills on web development.</p>
+          <p className="about-info">I am a software development student at the Manitoba Institute of Trades and Technology. I look forward to continuing to expand my knowledge and skills in web development.</p>
         </div>
         <div className="home-buttons-container">
           <Link to="/about">
