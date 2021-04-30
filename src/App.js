@@ -21,12 +21,12 @@ class App extends Component {
       },
       {
         id: 2,
-        name: "Budget Calculator",
-        image: "images/budget-calculator.png",
-        description: "Users can add and track income and expenses",
-        technologies: "JavaScript, HTML/CSS",
-        site: "https://budget-calculator-mitt.netlify.app/",
-        code: "https://github.com/elizabethh34/budget-calculator",
+        name: "World Capitals Quiz",
+        image: "images/capitals-quiz.png",
+        description: "Users can test their knowledge of world capitals",
+        technologies: "React, JavaScript, HTML/CSS",
+        site: "https://capitalcitiesquiz.netlify.app/",
+        code: "https://github.com/elizabethh34/quiz-app",
         isHosted: true
       },
       {
@@ -86,7 +86,17 @@ class App extends Component {
         technologies: "C#",
         code: "https://github.com/elizabethh34/RPG-game",
         isHosted: false
-      }
+      },
+      {
+        id: 9,
+        name: "Budget Calculator",
+        image: "images/budget-calculator.png",
+        description: "Users can add and track income and expenses",
+        technologies: "JavaScript, HTML/CSS",
+        site: "https://budget-calculator-mitt.netlify.app/",
+        code: "https://github.com/elizabethh34/budget-calculator",
+        isHosted: true
+      },
     ]
   }
 
