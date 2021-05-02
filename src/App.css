@@ -10,7 +10,7 @@ nav {
 
 .home-name, .home-role {
   text-align: center;
-  color:rgb(138, 209, 231);
+  color:rgb(198, 238, 250);
 }
 
 .home-name {
@@ -22,11 +22,16 @@ nav {
   padding: 20px;
 }
 
+.home-info {
+  font-weight: 600;
+  font-size: 25px;
+}
+
 .home-container {
-  color:rgb(138, 209, 231);
+  color:rgb(198, 238, 250);
   font-size: 20px;
   border-radius: 4px;
-  width: 70%;
+  width: 65%;
   margin: auto;
 }
 
@@ -147,7 +152,7 @@ nav ul {
 }
 
 .image-container:hover .project-image {
-  opacity: 0.3;
+  opacity: 0.15;
 }
 
 .image-container:hover .overlay {
